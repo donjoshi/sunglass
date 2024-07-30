@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
     return (
     
-        <header className=' flex justify-between p-3'>
+        <header className=' flex justify-between p-3 '>
             <NavLink to={'/'} className='flex items-center gap-1'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8">
                     <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
