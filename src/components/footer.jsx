@@ -20,9 +20,9 @@ export default function Footer() {
                     <h2 className="text-gray-800 text-lg font-bold mb-2">Quick Links</h2>
                     <ul className="text-gray-600">
                         <li className="mb-2"><a href="#">Home</a></li>
-                        <li className="mb-2"><a href="#">About</a></li>
+                        <li className="mb-2"><a href="/about">About</a></li>
                         <li className="mb-2"><a href="#">Products</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
 
