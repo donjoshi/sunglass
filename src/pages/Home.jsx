@@ -181,6 +181,10 @@ export default function Home() {
 
     const navigate=useNavigate();
 
+    function BuyNow() {
+        navigate('/products');
+    }
+
 
     function LearnMore() {
         navigate('/about');        
@@ -197,7 +201,7 @@ export default function Home() {
                         sunglasses are a must-have for the modern individual.</span>
 
                     <div className='w-full flex justify-left mt-8 gap-5 mb-8'>
-                        <button className='bg-black rounded-md p-2 font-medium'>Buy Now</button>
+                        <button className='bg-black rounded-md p-2 font-medium' onClick={BuyNow}>Buy Now</button>
                         <button className='bg-white rounded-md text-black p-1 font-medium' onClick={LearnMore}>Learn More</button>
                     </div>
                 </div>
@@ -324,7 +328,7 @@ export default function Home() {
                     <span className='text-gray-600 text-sm md:text-lg'>Discover the perfect pair of sunglasses to complement your <br />
                         unique style and make a lasting impression.</span>
                     <div className='py-4 mt-3'>
-                        <button className='bg-black font-bold text-base md:text-2xl text-white p-4 rounded-lg text-center'>Shop Now</button>
+                        <button className='bg-black font-bold text-base md:text-2xl text-white p-4 rounded-lg text-center' onClick={BuyNow}>Shop Now</button>
                     </div>
                 </div>
                 <div className='md:w-1/2 shadow-lg rounded-3xl'>

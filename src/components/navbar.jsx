@@ -63,7 +63,7 @@ export default function Navbar() {
                 <NavLink to={'/contact'} className='py-2 md:py-0'>Contacts</NavLink>
             </nav>
 
-            <NavLink to={'/buy'} className='hidden md:flex items-center gap-2 border text-white rounded-lg py-2 px-4 bg-black'>
+            <NavLink to={'/products'} className='hidden md:flex items-center gap-2 border text-white rounded-lg py-2 px-4 bg-black'>
                 Buy Now
             </NavLink>
         </header>
