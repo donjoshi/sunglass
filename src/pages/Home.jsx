@@ -175,8 +175,16 @@ import sunglass3 from './sunglass3.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import Footer from '../components/footer'
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+
+    const navigate=useNavigate();
+
+
+    function LearnMore() {
+        navigate('/about');        
+    }
     return (
         <div>
             <Navbar />
@@ -190,7 +198,7 @@ export default function Home() {
 
                     <div className='w-full flex justify-left mt-8 gap-5 mb-8'>
                         <button className='bg-black rounded-md p-2 font-medium'>Buy Now</button>
-                        <button className='bg-white rounded-md text-black p-1 font-medium'>Learn More</button>
+                        <button className='bg-white rounded-md text-black p-1 font-medium' onClick={LearnMore}>Learn More</button>
                     </div>
                 </div>
                 <div className='rounded-full p-7 md:w-1/2'>
