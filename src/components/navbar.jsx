@@ -16,8 +16,6 @@ export default function Navbar() {
 
             <div className='flex gap-5 font-medium py-2 px-4 '>
                 <div>Home</div>
-                
-                <div>About</div>
         
                 <div>Products</div>
 
